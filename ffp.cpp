@@ -52,7 +52,8 @@ static	char	rcs_id[] = "$Header: /usr/graphics/project/ff/ffp.c,v 1000.9 94/01/1
  */
 #include <stdio.h>
 #include <math.h>
-#include <values.h>
+#include <float.h>
+//#include <values.h>
 #include <assert.h>
 
 #include "claussen.h"
@@ -75,7 +76,8 @@ static	char	rcs_id[] = "$Header: /usr/graphics/project/ff/ffp.c,v 1000.9 94/01/1
 #if	defined SINGLE
 
 #ifndef	HUGE
-#define	HUGE	MAXFLOAT
+//#define	HUGE	MAXFLOAT
+#define	HUGE		FLT_MAX
 #endif	/* HUGE */
 
 #define	real	float

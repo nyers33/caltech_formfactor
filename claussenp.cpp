@@ -14,7 +14,8 @@
  * 
  */
 #include <math.h>
-#include <values.h>
+#include <float.h>
+//#include <values.h>
 #include "claussen.h"
 
 static	char	rcs_id[] = "$Header: /usr/graphics/project/ff/claussenp.c,v 1000.2 93/12/05 15:03:17 ps Exp $";
